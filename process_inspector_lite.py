@@ -42,11 +42,11 @@ for arg in args:
             save_path = name
         continue
     if "--help" in arg:
-        print("--d - disables output of processes specified in config\n" +
+        print("--d - disables output of processes specified in config.\n" +
               "--list= - change the list of processes in the config. default - System,Services.\n" +
-              "--output - change output format. default - 0,1,2,3,4.\n" +
-              "--save - changes the logging path\n" +
-              "--p - disables preview\n\n\n")
+              "--output= - change output format. default - 0,1,2,3,4.\n" +
+              "--save= - changes the logging path.\n" +
+              "--p - disables preview.\n\n\n")
         os.system("cmd.exe")
     if "--p" in arg:
         del_preview = True
