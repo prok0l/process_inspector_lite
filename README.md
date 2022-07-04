@@ -13,7 +13,6 @@ Inspector of processes running and closed in Windows. Lite version for use from 
 /_/_/ /_/____/ .___/\___/\___/\__/\____/_/
             /_/
 
-
 Settings:
 --d - disables output of processes specified in config.
 --list= - change the list of processes in the config. default - System,Services.
